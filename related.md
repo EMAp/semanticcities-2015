@@ -3,8 +3,6 @@ layout: content
 title: Related Events
 ---
 
-## Related Events
-
 [Workshop on AI for Cities](http://cusp.nyu.edu/aaai-2015-workshop/) 
 In conjunction with Association for the Advancement of Artificial Intelligence conference (AAAI-15)
 Theo Damoulas, Biplav Srivastava, Sheila McIraith, Freddy Lecue
