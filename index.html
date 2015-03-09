@@ -1,1163 +1,270 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-      xmlns:o="urn:schemas-microsoft-com:office:office"
-      xmlns:w="urn:schemas-microsoft-com:office:word"
-      xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-      xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
-      xmlns="http://www.w3.org/TR/REC-html40"><head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Alexandre Rademaker" />
+    <meta name="keywords" content="Semantic Cities, IJCAI 2015, AI Models, Proofs, Reasoning" />
+    <meta name="description" content="The IJCAI 2015 Workshop on Semantic Cities: Beyond AI Models, Proofs and Reasoning"/>
+    <meta http-equiv="Cache-Control" CONTENT="max-age=3600, must-revalidate" />
+    <meta name="robots" content="all" />  
+    <meta name="language" content="English"/>
+
+    <title> Workshop on Semantic Cities 2014 - The IJCAI 2015 Workshop on Semantic Cities: Beyond AI Models, Proofs and Reasoning </title>
+    <link href="http://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/position.css" type="text/css" media="screen,projection" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen,projection" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+    <!--[if lte IE 6]>
+	<link href="css/ieonly.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+          #line
+          {      width:98% ;
+          }
+          .logoheader
+          {
+          height:200px;
+	  
+          }
+          #header ul.menu
+          {
+          display:block !important;
+          width:98.2% ;
+	  
+          }
+	</style>
+	<![endif]-->
+    <!--[if IE 7]>
+	<link href="css/ie7only.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+    <style type="text/css">
+      #main h2 {font-family: 'Average Sans', sans-serif;}
+      #nav h3 {font-family: 'Average Sans', sans-serif;}
+    </style>
+  </head>
+
+  <body>
+    <div id="all">
+      <div id="back">
+	
+	<div id="header">
+  <div style="margin-left:8px;background:white">
+    <img src="img/banner.png" alt="Workshop on Semantic Cities: Beyond AI Models, Proofs and Reasoning">
+  </div>
+</div>
+
+
+	<div id="contentarea">
+	  <div id="breadcrumbs">
+          </div>
+
+	  <div class="left1 leftbigger" id="nav">
+	    <div class="moduletable_menu">
+
+  <h3>
+    <span class="backh"><span class="backh2">
+	<span class="backh3">Semantic Cities</span>
+  </span></span></h3>
   
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="File-List" href="index_files/filelist.xml">
-  <link rel="Edit-Time-Data" href="index_files/editdata.mso">
-  <title>Semantic Cities: Workshop at IJCAI 2015</title>
-  <link rel="themeData" href="index_files/themedata.thmx">
-  <link rel="colorSchemeMapping" href="index_files/colorschememapping.xml">
+  <ul class="menu">
+    <li class="item-1"><a href="index.html">Home</a></li>
+        <li class="item-1"><a href="details.html">Details</a></li>
+    <li class="item-2"><a href="call-for-papers.html">Call for Papers</a></li>
+    <li class="item-3"><a href="related.html">Related Events</a></li>
+    <li class="item-4"><a href="pc.html">Program Committee</a></li>
+    <li class="item-5"><a href="program.html">Program</a></li>
+  </ul>
+</div>
 
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:Zoom>81</w:Zoom>
-  <w:TrackMoves>false</w:TrackMoves>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="--"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="267">
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
-  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="false" UnhideWhenUsed="false"
-   QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Table Grid"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
- </w:LatentStyles>
-</xml><![endif]--><!--[if !mso]><object
- classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
-<style>
-st1\:*{behavior:url(#ieooui) }
-</style>
-<![endif]-->
+	    <div class="moduletable">
+  <h3>
+    <span class="backh">
+      <span class="backh2">
+	<span class="backh3">Important Dates</span>
+      </span>
+    </span>
+  </h3>
   
-  <style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
-@font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610611985 1073741899 0 0 159 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:1627400839 -2147483648 8 0 66047 0;}
-@font-face
-	{font-family:Georgia;
-	panose-1:2 4 5 2 5 4 5 2 3 3;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:647 0 0 0 159 0;}
-@font-face
-	{font-family:"Book Antiqua";
-	panose-1:2 4 6 2 5 3 5 3 3 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:647 0 0 0 159 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;}
-h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
-	mso-style-next:Normal;
-	margin-top:24.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:14.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#365F91;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-font-kerning:0pt;
-	font-weight:bold;}
-h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 2 Char";
-	mso-style-next:Normal;
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
-h4
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 4 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:4;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;
-	font-weight:bold;}
-p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Title Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	text-align:center;
-	mso-pagination:widow-orphan;
-	font-size:22.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Georgia","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	color:windowtext;
-	font-weight:bold;}
-p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
-	{mso-style-priority:99;
-	mso-style-link:"Body Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	color:windowtext;}
-a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:purple;
-	text-decoration:underline;
-	text-underline:single;}
-p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 1";
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#365F91;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-weight:bold;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 2";
-	mso-ansi-font-size:13.0pt;
-	mso-bidi-font-size:13.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 4";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;
-	font-style:italic;}
-span.TitleChar
-	{mso-style-name:"Title Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Title;
-	mso-ansi-font-size:22.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Georgia","serif";
-	mso-ascii-font-family:Georgia;
-	mso-hansi-font-family:Georgia;
-	font-weight:bold;}
-span.BodyTextChar
-	{mso-style-name:"Body Text Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Body Text";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-ascii-font-family:Tahoma;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;
-	color:black;}
-p.input, li.input, div.input
-	{mso-style-name:input;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	background:#FFFFCC;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
-@page Section1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.Section1
-	{page:Section1;}
- /* List Definitions */
- @list l0
-	{mso-list-id:2;
-	mso-list-type:simple;
-	mso-list-template-ids:2;
-	mso-list-name:WW8Num3;}
-@list l0:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:·;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ascii-font-family:Symbol;
-	mso-hansi-font-family:Symbol;}
-ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-  </style><!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman","serif";}
-</style>
-<![endif]-->
-  
-  <meta name="TITLE" content="Biplav Srivastava">
+  <div class="custom">
+    <table class="dates">
+      <tr><td>Submission:</td><td><strong>April 15 ,2015</strong></td></tr>
+      <tr><td>Decision:</td><td><strong>May 1, 2015</strong></td></tr>
+      <tr><td>Camera ready:</td><td><strong>May 15, 2015</strong></td></tr>
+      <tr><td>Early registration:</td><td><strong>June 1, 2015</strong></td></tr>
+      <tr><td>Workshop:</td><td><strong>July ?, 2015</strong></td></tr>
+    </table>
+  </div>
 
-  
-  <meta name="DESCRIPTION" content="Personal home page for Biplav Srivastava, IBM India Research Lab">
+  <div class="custom" style="margin: 30px 0 0 0; padding: 30px 0 0 0">
+    <a href="https://www.easychair.org/conferences/?conf=semcities15">Submission Site</a>
+  </div>
 
-  
-  <meta name="ABSTRACT" content="Personal home page for Biplav Srivastava, IBM India Research Lab">
+</div>
 
-  
-  <meta name="KEYWORDS" content="research biplav srivastava IRL ASU planning web services bioinformatics learning semantic">
+	  </div>
+	  
+	  <div id="wrapper2">
 
-  
-  <meta name="OWNER" content="Biplav Srivastava, sbiplav@in dot ibm dot com">
+	    <div id="main">
+	      <div id="system-message-container">
+	      </div>
 
-  
-  <meta name="AUTHOR" content="Biplav Srivastava, sbiplav@in dot ibm dot com">
+	      <div class="item-page" style="text-align: justify">
 
-  
-  <meta name="REVIEW" content="20040322">
+  <h2> The IJCAI 2015 Workshop on Semantic Cities: Beyond AI Models, Proofs and Reasoning </h2>
 
-  
-  <meta name="SECURITY" content="Public">
+  <h2>Description</h2>
 
-  
-  <meta name="SOURCE" content="IBM Research Communications">
-
-  
-  <meta name="COPYRIGHT" content="Copyright (c) 2001 by IBM Corporation">
-
-  
-  <meta name="ROBOTS" content="index,follow">
-
-  
-  <meta name="DC.LANGUAGE" content="en-us">
-
-  
-  <meta name="CHARSET" content="iso88591">
-
-  
-  <meta name="IBM.COUNTRY" content="in">
-
-  
-  <meta name="DC.DATE" content="2001-02-23">
-
-  
-  <meta http-equiv="PICS-Label" content="(PICS-1.1">
-
-<!-- The content Project Title --><!-- use the same as for ABSTRACT --><!-- Change these, the search engine will categorize your page based on them, use as many as are appropriate but be specific.  Samples:  http://www.research.ibm.com/resources/keywords.html --><!-- The content OWNER --><!-- The html author or webmaster --><!-- Last Updated --><!--
-
-		<?xml version="1.0"?>
-
-		<!DOCTYPE Brand SYSTEM "http://www.ibm.com/data/xml/ProdNav.dtd">
-
-		<PageSet cc="us" language="en">
-
-			<URI name="IBM Research" href="http://www.research.ibm.com" />
-
-		</PageSet>
-
-		//s--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="13314"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
-</head><body topmargin="2" leftmargin="2" rightmargin="2" style="background-color: white;" lang="EN-US" link="blue" marginheight="2" marginwidth="2" vlink="purple">
-<div class="Section1">
-<p class="MsoNormal">&nbsp; <o:p></o:p></p>
-<table class="MsoNormalTable" style="width: 1505px; height: 142px;" border="0" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr style="height: 26.25pt;">
-      <td colspan="2" style="padding: 0.75pt; background: black none repeat scroll 0% 50%; height: 26.25pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
-      <p class="MsoTitle" style="text-align: left;" align="left"><span style="font-size: 20pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: rgb(79, 129, 189);"><!-- The masthead code can be removed and used on it's own --><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>The <a href="http://ijcai-15.org/"><span style="text-decoration: underline;">IJCAI 2015 </span></a>Workshop on Semantic Cities:</span></p>
-      <p class="MsoTitle" style="text-align: left;" align="left"><span style="font-size: 20pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: rgb(79, 129, 189);">&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Beyond AI Models, Proofs and Reasoning<o:p></o:p></span></p>
-      <p class="MsoTitle"><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: rgb(217, 149, 148);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-July 25-31, 2015, Buenos Aires, Argentina<o:p></o:p></span></p>
-      </td>
-    </tr>
-    <tr style="height: 26.25pt;">
-      <td style="padding: 0.75pt; background: black none repeat scroll 0% 50%; height: 26.25pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="bottom">
-      <p class="MsoNormal"><span style="font-size: 18pt; color: white;">Semantic
-Cities</span><span style="font-size: 18pt;"><o:p></o:p></span></p>
-      </td>
-      <td style="padding: 0.75pt; background: black none repeat scroll 0% 50%; width: 100%; height: 26.25pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" width="100%">
-      <p class="MsoNormal"><span style="font-size: 18pt; color: windowtext;">&nbsp;<o:p></o:p></span></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<p class="MsoNormal"><span style="display: none;"><o:p>&nbsp;</o:p></span></p>
-<table class="MsoNormalTable" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" height="88%" width="100%">
-  <tbody>
-    <tr style="height: 7.5pt;" width="100%">
-      <td style="padding: 0in; background: rgb(205, 205, 205) none repeat scroll 0% 50%; width: 117pt; height: 7.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" valign="top" width="156">
-      <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
-      <p class="MsoNormal"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p>&nbsp;</o:p></span></p>
-      <p class="MsoNormal"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p>Call
-for Paper</o:p></span></p>
-      <p class="MsoNormal"><br>
-      <a href="http://research.ihost.com/semanticcities12/AAAI12-SemanticCities-CFP.pdf" target="_blank"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p></o:p></span></a></p>
-      <p class="MsoNormal"><a href="https://www.easychair.org/conferences/?conf=semcities15"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p>Submission Site</o:p></span></a></p>
-      <p class="MsoNormal"><br>
-      <a target="_blank" href="http://www.easychair.org/conferences/?conf=semanticcitiesaaai20"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p></o:p></span></a></p>
-      <p class="MsoNormal"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;">Program<br>
-      </span></p>
-      <p class="MsoNormal"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;"><o:p>&nbsp;</o:p></span></p>
-      <p class="MsoNormal"><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;">Important Dates<o:p></o:p></span></p>
-      <table class="MsoNormalTable" style="" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr style="">
-            <td style="padding: 2.25pt;">
-              <p class="MsoNormal" style="font-size: 10pt; color: windowtext;">
-		&nbsp;&nbsp;&nbsp;<b>April 15, 2015</b>: Paper Submission Deadline<br>
-		&nbsp;&nbsp;&nbsp;<b>May 1, 2015</b>: Notification Decision<br>
-		&nbsp;&nbsp;&nbsp;<b>May 15, 2015</b>: Camera Ready Due<br>
-		&nbsp;&nbsp;&nbsp;<b>June 1, 2015</b>: Early registration date<br>
-		&nbsp;&nbsp;&nbsp;<b>July ??, 2015</b>: Workshop date
-	      </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="MsoNormal"><span style="font-size: 10pt; color: windowtext;"><o:p></o:p></span></p>
-      </td>
-      <td style="padding: 0in; width: 7.5pt; height: 7.5pt;" width="10">
-      <p class="MsoNormal"><span style=""><img id="_x0000_i1028" src="../../../../../images/shared/locked/clear.gif" border="0" height="1" width="9"></span></p>
-      </td>
-      <td style="padding: 0in; width: 450.75pt; height: 7.5pt;" nowrap="nowrap" valign="top" width="601">
-      <div class="MsoNormal" style="text-align: center;" align="center">
-      <hr align="center" size="2" width="100%"> </div>
-      <table class="MsoNormalTable" style="width: 100%;" border="0" cellpadding="0">
-        <tbody>
-          <tr style="height: 13.8pt;">
-            <td class="MsoBodyText" rowspan="2" style="padding: 1.5pt; height: 13.8pt;">
-            <h1 style="margin: 12pt 0in 3pt;">Description</h1>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">Cities
-around the world aspire to provide superior quality of life to their
-citizens. Furthermore, many are also seen as centers of unique
+<p>Cities around the world aspire to provide superior quality of life to
+their citizens. Furthermore, many are also seen as centers of unique
 opportunities, like business, fashion, entertainment and governance,
-for their citizens. Cities want to retain such pre-eminent positions or
-re-position themselves for newer opportunities. But, resources needed
-to reach and sustain such aspirations are decreasing while the
+for their citizens. Cities want to retain such pre-eminent positions
+or re-position themselves for newer opportunities. But, resources
+needed to reach and sustain such aspirations are decreasing while the
 expectations continue to rise from an increasing population-base. A
 positive trend of the Internet age is that more data than even before
 is open and accessible, including from governments at all levels of
-jurisdiction, which enables rigorous analysis.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">The
-scientific community has responded to city challenges by promoting the
-computational sustainability vision where resources consumed by a city,
-such as water, energy, land, food and air, can be monitored to know the
-accurate present picture and then optimized for resource efficiency
-without degrading quality of services it provides -traffic movement,
-water availability, sanitation, public safety, etc. Industry has joined
-the vision with a "smart" or "intelligent" prefix for cyber-physical
-systems, which involve sensing the data through physical instruments,
-interconnecting and integrating them from multiple sources, analyzing
-them for intelligent patterns and inferring new insight for decision
-making. This effort needs access to city data, AI models to abstract
-city domains as well as interconnect them so that advanced AI
-techniques, AI reasoning and new generation of applications can be
-built by rest of the world. We will like to call cities that enable
-such capabilities as, "semantic cities". In particular this workshop
-addresses "Beyond AI models, proofs and reasoning" where models and
-reasoning techniques from the AI community are of special interest.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">In
-a Semantic City, available resources are harnessed safely, sustainably
-and efficiently to achieve positive, measurable economic and societal
-outcomes. Enabling City information as a utility, through a robust
-(expressive, dynamic, scalable) and (critically) a sustainable
-technology and socially synergistic ecosystem could drive significant
-benefits and opportunities. Data (and then information and knowledge)
-from people, systems and things is the single most scalable resource
-available to City stakeholders to reach the objective of semantic
-cities.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">Two
-major trends are supporting semantic cities - open data and Artificial
-Intelligence. "Open data is the idea that certain data should be freely
-available to everyone to use and republish as they wish, without
-restrictions from copyright, patents or other mechanisms of control ."
-A number of cities and government have made their data publicly
-available, prominent being London (UK), Chicago (USA), Washington DC
-(USA), Dublin (Ireland). Artificial Intelligence as a mature research
-discipline is crucial to bring breakthrough new technologies and
-systems to cities, its operators and citizens. Thus, a playfield for
-more AI research-driven technologies for cities has emerged.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">In this context, the aims of the workshop are to:</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">1.&nbsp;&nbsp;&nbsp; Draw the attention of the AI community to the research challenges and opportunities in semantic cities.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">2.&nbsp;&nbsp;&nbsp;
-Draw the attention on the multi-disciplinary dimension and its impact
-on semantic cities e.g., transportation, energy, water management,
-building, infrastructure</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">3.&nbsp;&nbsp;&nbsp;
-Identify unique issues of this domain and what new (hybrid) techniques
-may be needed. As example, since governments and citizens are involved,
-data security and privacy are first-class concerns.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">4.&nbsp;&nbsp;&nbsp; Promoting more cities to become semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">5.&nbsp;&nbsp;&nbsp; Elaborating a (semantic data) benchmark for testing AI techniques on semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">6.&nbsp;&nbsp;&nbsp; Provide a platform for sharing best-practices and discussion</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">We
-will encourage submissions that show the relevance or application of AI
-technologies for computational sustainability domains. Apart from focus
-on foundational technologies for semantic cities (information
-management, knowledge management, ontology, inference model, data
-integration, machine learning, crowdsourcing), we will promote
-illustrative use-cases using the semantic cities foundation. Examples
-are transportation (traffic prediction, diagnosis, personal travel
-optimization, carpool and fleet scheduling), public safety (suspicious
-activity detection, disaster management), healthcare (disease diagnosis
-and prognosis, pandemic management), water management (flood prevision,
-quality monitoring, fault diagnosis), food (food traceability,
-carbon-footprint tracking), energy (smart grid, carbon-footprint
-tracking, electricity consumption forecasting) and buildings (energy
-conservation, fault detections). We will also encourage submissions
-that address unique characteristics of standard AI enabling
-sustainability problems, like optimization, reasoning, planning and
-learning. We will also "reach out" to communities engaged in open data
-and corresponding standardization efforts.</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">Topics of interest include, but not restricted to, are:<br>
-            </span></p>
+jurisdiction, which enables rigorous analysis.</p>
 
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">1.&nbsp;&nbsp;&nbsp; AI
-models and analytics for cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">2.&nbsp;&nbsp;&nbsp;
-Active learning, sampling biases and dataset shift in city data</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">3.&nbsp;&nbsp;&nbsp;
-Process to open city (government) data</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">4.&nbsp;&nbsp;&nbsp;
-Platforms to manage government data</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">5.&nbsp;&nbsp;&nbsp;
-Planning/Scheduling for city operations</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">6.&nbsp;&nbsp;&nbsp;
-Provenance, access control and privacy-preserving issues in open data</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">7.&nbsp;&nbsp;&nbsp; Data
-cities interoperability</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">8.&nbsp;&nbsp;&nbsp;
-Decision making for urban science and for city policy</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">9.&nbsp;&nbsp;&nbsp;
-Resource allocation in urban systems</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">10.&nbsp;&nbsp;&nbsp;
-Crowdsourcing for urban science and decision making</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">11.&nbsp;&nbsp;&nbsp;
-Semantic models - especially those built collaboratively and evolving</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">12.&nbsp;&nbsp;&nbsp; Data
-integration and organization in semantic cities (social media feeds,
-sensor data)</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">13.&nbsp;&nbsp;&nbsp;
-Internet of Things in semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">14.&nbsp;&nbsp;&nbsp;
-Robust inference models for semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">15.&nbsp;&nbsp;&nbsp;
-Semantic Event detection and classification</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">16.&nbsp;&nbsp;&nbsp;
-Applications in semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">17.&nbsp;&nbsp;&nbsp;
-Spatio-temporal reasoning, analysis and visualization</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">18.&nbsp;&nbsp;&nbsp; User
-interaction in exploring semantic data of cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">19.&nbsp;&nbsp;&nbsp;
-Knowledge representation and reasoning challenges</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">20.&nbsp;&nbsp;&nbsp;
-Knowledge acquisition, evolution and maintenance</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">21.&nbsp;&nbsp;&nbsp;
-Challenges with managing and integrating real-time and historical data</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">22.&nbsp;&nbsp;&nbsp;
-Managing "big data" using knowledge representation models</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">23.&nbsp;&nbsp;&nbsp;
-Multi-agent simulations of urban processes</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">24.&nbsp;&nbsp;&nbsp;
-Integrated systems</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">25.&nbsp;&nbsp;&nbsp;
-Applied AI models for semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">26.&nbsp;&nbsp;&nbsp;
-Issues in scaling out and applying AI techniques for semantic cities</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">27.&nbsp;&nbsp;&nbsp; Case
-studies, successes, lessons learnt</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">28.&nbsp;&nbsp;&nbsp;
-Public datasets and competitions</span></p>
-            <p class="MsoNormal" style="margin-top: 12pt;"><span style="font-size: 11pt; color: windowtext;">29.&nbsp;&nbsp;&nbsp;
-Intelligent user interface<br>
-            </span></p>
-            <br>
-            <div>
-            <div class="MsoNormal"><span style="font-size: 10pt; color: windowtext;">
-            <hr align="left" size="2" width="100%"> </span></div>
-            </div>
-            <h1 style="margin: 12pt 0in 3pt;">Workshop Details<span style="font-size: 11pt; color: windowtext; font-weight: normal;"><o:p></o:p></span></h1>
-            <p class="MsoNormal"><br>
-            <u>Workshop Format: </u>The workshop will consist of
-papers, poster presentations, demonstrations, a panel, an invited talk,
-and discussion sessions, in a one full day schedule. The invited talk
-will invite a leading expert in the field to present their research and
-vision of future work. The panel will focus on connecting the AI
-researchers to the various challenges that the targeted domain brings.
-The schedule will follow the schedule of the <a href="http://research.ihost.com/semanticcities12/">2012</a>, <a href="http://research.ihost.com/semanticcities13/">2013</a> and <a href="http://research.ihost.com/semanticcities14/">2014</a>
-editions,
-all grouped by topic and type (invited talk, long, short and
-demonstration papers, panel).<b><o:p></o:p></b></p>
-            <p><u>Submission Guidelines:</u> All papers submissions
-must be in IJCAI format. They can be one of two
-types. The first is regular research papers, which can be up to 6 pages
-long and are expected to present a significant contribution. The second
-is short submission of up to 4 pages, which describes a position on the
-topic of the workshop or a demonstration/tool.&nbsp; </p>
-            <p><span style="text-decoration: underline;">Submission
-site:</span> Papers are to be submitted online at <a href="https://www.easychair.org/conferences/?conf=semcities14">https://www.easychair.org/conferences/?conf=semcities15.</a>
-We request interested authors to login and submit abstracts as an
-expression of interest before the actual deadline.</p>
-            <div>
-            <div class="MsoNormal"><span style="font-size: 10pt; color: windowtext;">
-            <hr align="left" size="2" width="100%"> </span></div>
-            </div>
-            <span style="font-size: 11pt;" lang="FR"></span>
-            <h1 style="margin: 12pt 0in 3pt;">Workshop Notes and
-Accepted Papers<span style="font-style: italic;"></span><i style=""><span style="font-size: 11pt; color: windowtext; font-weight: normal;"></span></i><span style="font-size: 11pt; color: windowtext; font-weight: normal;"><o:p></o:p></span></h1>
-            <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
-            <p class="MsoNormal"><b style="">TBA: <o:p></o:p></b></p>
-            <p class="MsoNormal"><b style=""><o:p>&nbsp;</o:p></b></p>
-            <br>
-            <p class="MsoNormal" style="margin-left: 0.5in; text-align: justify;"><span style="font-size: 11pt;" lang="SV"><o:p></o:p></span></p>
-            <span style="font-size: 11pt;" lang="SV"></span>
-            <p class="MsoNormal" style="margin-left: 0.5in;"><span style="font-size: 11pt;" lang="SV"><o:p><br>
-            </o:p></span></p>
-            <div>
-            <div class="MsoNormal"><span style="font-size: 10pt; color: windowtext;">
-            <hr align="left" size="2" width="100%"> </span></div>
-            </div>
-            <h1 style="margin: 12pt 0in 3pt;">The Organizers</h1>
-            <h2><u><span style="font-size: 12pt;">Co-Chairs:</span></u></h2>
-            <br>
-            <br>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;" lang="FR">Freddy Lecue </span><span style="font-size: 11pt;" lang="FR">(primary point of contact)</span><span style="font-size: 11pt;" lang="FR"><br>
-            </span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;" lang="FR">IBM Research -
-Smarter Cities Technology Centre, Dublin, Ireland<br>
-Email : <a href="mailto:freddy.lecue@ie.ibm.com">freddy lecue at
-ie.ibm.com</a></span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><br>
-            </p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;">Biplav Srivastava <o:p></o:p></span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;" lang="FR"> IBM Research -
-India, </span><span style="font-size: 11pt;">New Delhi, India</span><br>
-            <st1:placename w:st="on"></st1:placename><st1:placename w:st="on"></st1:placename><st1:placename w:st="on"></st1:placename><st1:placetype w:st="on"></st1:placetype><st1:city w:st="on"><st1:place w:st="on"></st1:place></st1:city><st1:country-region w:st="on"></st1:country-region><o:p></o:p></p>
-            <span style="font-size: 11pt;" lang="FR">Email: <a href="mailto:sbiplav@in.ibm.com">sbiplav&nbsp; at in.ibm.com</a><br>
-            <br>
-Alexandre Rademaker<br>
-IBM Research - Brazil, Rio, Brazil<br>
-Email: alexrad@br.ibm.com<br>
-            </span>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><br>
-            <span style="font-size: 11pt;" lang="FR"></span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;" lang="FR"></span><span style="font-size: 11pt;">Sheila McIlraith <br>
-            </span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;">Department of Computer
-Science <br>
-            </span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;">University of Toronto <br>
-            </span></p>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;">Email: <a href="mailto:sheila@cs.toronto.edu">Sheila at cs dot
-Toronto dot edu</a></span></p>
-            <span style="font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><br>
-            </span>
-            <p class="MsoBodyText" style="text-align: left;" align="left"><span style="font-size: 11pt;" lang="FR"></span><span style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;,&quot;serif&quot;;" lang="FR"><o:p></o:p></span></p>
-            <h2><u><span style="font-size: 12pt;">Steering Committee:</span></u></h2>
-            <p class="MsoBodyText" style="margin-left: 0.5in; text-align: left; text-indent: -0.25in;" align="left"><span style="font-size: 10pt; color: windowtext;"><o:p>&nbsp;</o:p></span><span style="font-size: 11pt;"><br>
-            </span></p>
-            <span style="font-size: 11pt;">Pol Mac Aonghusa, IBM
-Research, Ireland<br>
-Anupam Joshi, University of Maryland, Baltimore County, USA<br>
-Craig Knoblock, USC/ISI, USA<br>
-Raghuram Krishanpuram, IBM Research - India<br>
-            <br>
-            </span><span style="font-size: 11pt;"></span>
-            <h2><u><span style="font-size: 12pt;">Program Committee: <br>
-            </span></u></h2>
-            <span style="font-size: 11pt;"><br>
-Mathieu D'Aquin, Open University, UK<br>
-Soren Auer, Univeristy of Leipzig, Germany<br>
-Philippe Cudré-Mauroux, University of Fribourg, Switzerland<br>
-Fabien Gandon, INRIA, France<br>
-Michael Gruninger, University of Toronto, Canada<br>
-Anupam Joshi, University of Maryland, Baltimore County, USA<br>
-Subbarao Kambhampati, Arizona State University, USA<br>
-Spyros Kotoulas, IBM Research, Smarter Cities Technology Centre,
-Dublin, Ireland<br>
-Craig Knoblock, USC/ISI and Fetch Technologies, USA<br>
-Raghuram Krishanpuram, IBM Research, India<br>
-Ullas Nambiar, EMC, India<br>
-Tope Omitola, University of Southampton, UK<br>
-Jeff Z.Pan, The University of Aberdeen, UK<br>
-Francois Scharffe, LIRMM, Montpellier, France<br>
-Neeta Verma, Data.gov.in/ NIC, India<br>
-            </span><span style="font-size: 11pt;" lang="SV"></span>
-            <div>
-            <div class="MsoNormal"><span style="font-size: 10pt; color: windowtext;">
-            <hr align="left" size="2" width="100%"> </span></div>
-            </div>
-            <h1 style="margin: 12pt 0in 3pt;">Related Work <br>
-            </h1>
-            <a href="http://cusp.nyu.edu/aaai-2015-workshop/"><br>
-Workshop on AI for Cities</a><br>
-In conjunction with Association for the Advancement of Artificial
-Intelligence conference (AAAI-15)<br>
-Theo Damoulas, Biplav Srivastava, Sheila McIraith, Freddy Lecue<br>
-Austin, Texas, USA - January 25-26, 2015<br>
-            <br>
-            <a href="http://blog.soton.ac.uk/s4sc/">Workshop on
-Semantics for Smarter Cities</a><br>
-In conjunction with 13th International Semantic Web Conference (ISWC
-2014)<br>
-Payam Barnaghi, Jan Holler, Biplav Srivastava, John Davies, John
-Breslin, and Tope Omitola<br>
-Riva del Garda, Italy - 20 October, 2014<br>
-            <br>
-            <a href="http://research.ihost.com/semanticcities14/">Workshop
-on Semantic Cities</a><br>
-In conjunction with Association for the Advancement of Artificial
-Intelligence conference (AAAI-14)<br>
-Mark Fox, Freddy Lecue, Sheila McIlraith, Biplav Srivastava and Rosario
-Usceda-Sosa<br>
-Québec City, Québec, Canada - July 27-31, 2014<br>
-            <a href="https://sites.google.com/site/inclusivewebprogramming/"><br>
-Workshop on Inclusive Web Programming - Programming on the Web with
-Open Data for Societal Applications</a><br>
-In conjunction with 36th International Conference on Software
-Engineering (ICSE-15)<br>
-Biplav Srivastava and Neeta Verma<br>
-Hyderabad, India - May 31-June 4, 2014<br>
-            <br>
-            <a href="http://research.ihost.com/semanticcities13/">Workshop
-on Semantic Cities</a><br>
-In conjunction with International Joint Conference on Artificial
-Intelligence (IJCAI-13)<br>
-Freddy Lecue Biplav Srivastava, and Ziaqing Nie<br>
-Beijing, China - Aug 3-5, 2013<br>
-            <br>
-            <a href="http://aida.ii.uam.es/wims13/semcity.php">The
-Semantic Smart City Workshop (SemCity-13)</a><br>
-In conjunction with International Conference on Web Intelligence,
-Mining and Semantics (WIMS-13)<br>
-Tope Omitola, John Breslin, Biplav Srivastava, and John Davies<br>
-Madrid, Spain - June 12-14, 2013<br>
-            <br>
-            <a href="http://research.ihost.com/semanticcities12/">Workshop
-on Semantic Cities</a><br>
-In conjunction with 26th Conference of Association for Advancement of
-Artificial Intelligence (AAAI-12)<br>
-Biplav Srivastava, Freddy Lecue, and Anupam Joshi<br>
-Toronto, Canada - July 22-26, 2012<br>
-            <br>
-            <a href="http://research.ihost.com/aiip11/index.html">AI
-for an Intelligent Planet</a><br>
-In conjunction with 22nd International Joint Conference on Artificial
-Intelligence (IJCAI-11)<br>
-Biplav Srivastava, Carla Gomes, and Anand RanganathanBarcelona, <br>
-Spain - July 16-22, 2011<br>
-            </td>
-<!--[if !supportMisalignedRows]--> <td style="border: medium none ; height: 13.8pt;" height="18" width="0"><br>
-            </td>
-<!--[endif]--> </tr>
-          <tr style="height: 13.8pt;">
-<!--[if !supportMisalignedRows]--> <td style="border: medium none ; height: 13.8pt;" height="18" width="0"><br>
-            </td>
-<!--[endif]--> </tr>
-        </tbody>
-      </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<p class="MsoNormal"><span style="color: windowtext;"><o:p>&nbsp;</o:p></span></p>
+<p>The scientific community has responded to city challenges by promoting
+the computational sustainability vision where resources consumed by a
+city, such as water, energy, land, food and air, can be monitored to
+know the accurate present picture and then optimized for resource
+efficiency without degrading quality of services it provides -traffic
+movement, water availability, sanitation, public safety, etc. Industry
+has joined the vision with a "smart" or "intelligent" prefix for
+cyber-physical systems, which involve sensing the data through
+physical instruments, interconnecting and integrating them from
+multiple sources, analyzing them for intelligent patterns and
+inferring new insight for decision making. This effort needs access to
+city data, AI models to abstract city domains as well as interconnect
+them so that advanced AI techniques, AI reasoning and new generation
+of applications can be built by rest of the world. We will like to
+call cities that enable such capabilities as, "semantic cities". In
+particular this workshop addresses "Beyond AI models, proofs and
+reasoning" where models and reasoning techniques from the AI community
+are of special interest.</p>
+
+<p>In a Semantic City, available resources are harnessed safely,
+sustainably and efficiently to achieve positive, measurable economic
+and societal outcomes. Enabling City information as a utility, through
+a robust (expressive, dynamic, scalable) and (critically) a
+sustainable technology and socially synergistic ecosystem could drive
+significant benefits and opportunities. Data (and then information and
+knowledge) from people, systems and things is the single most scalable
+resource available to City stakeholders to reach the objective of
+semantic cities.</p>
+
+<p>Two major trends are supporting semantic cities - open data and
+Artificial Intelligence. "Open data is the idea that certain data
+should be freely available to everyone to use and republish as they
+wish, without restrictions from copyright, patents or other mechanisms
+of control ." A number of cities and government have made their data
+publicly available, prominent being London (UK), Chicago (USA),
+Washington DC (USA), Dublin (Ireland). Artificial Intelligence as a
+mature research discipline is crucial to bring breakthrough new
+technologies and systems to cities, its operators and citizens. Thus,
+a playfield for more AI research-driven technologies for cities has
+emerged.</p>
+
+<p>In this context, the aims of the workshop are to:</p>
+
+<ul>
+<li><p>Draw the attention of the AI community to the research challenges
+and opportunities in semantic cities.</p></li>
+<li><p>Draw the attention on the multi-disciplinary dimension and its
+impact on semantic cities e.g., transportation, energy, water
+management, building, infrastructure</p></li>
+<li><p>Identify unique issues of this domain and what new (hybrid)
+techniques may be needed. As example, since governments and citizens
+are involved, data security and privacy are first-class concerns.</p></li>
+<li><p>Promoting more cities to become semantic cities.</p></li>
+<li><p>Elaborating a (semantic data) benchmark for testing AI techniques on
+semantic cities.</p></li>
+<li><p>Provide a platform for sharing best-practices and discussion.</p></li>
+</ul>
+
+
+<p>We will encourage submissions that show the relevance or application
+of AI technologies for computational sustainability domains. Apart
+from focus on foundational technologies for semantic cities
+(information management, knowledge management, ontology, inference
+model, data integration, machine learning, crowdsourcing), we will
+promote illustrative use-cases using the semantic cities
+foundation. Examples are transportation (traffic prediction,
+diagnosis, personal travel optimization, carpool and fleet
+scheduling), public safety (suspicious activity detection, disaster
+management), healthcare (disease diagnosis and prognosis, pandemic
+management), water management (flood prevision, quality monitoring,
+fault diagnosis), food (food traceability, carbon-footprint tracking),
+energy (smart grid, carbon-footprint tracking, electricity consumption
+forecasting) and buildings (energy conservation, fault detections). We
+will also encourage submissions that address unique characteristics of
+standard AI enabling sustainability problems, like optimization,
+reasoning, planning and learning. We will also "reach out" to
+communities engaged in open data and corresponding standardization
+efforts.</p>
+
+<p>Topics of interest include, but not restricted to, are:</p>
+
+<ul>
+<li>AI models and analytics for cities</li>
+<li>Active learning, sampling biases and dataset shift in city data</li>
+<li>Process to open city (government) data</li>
+<li>Platforms to manage government data</li>
+<li>Planning/Scheduling for city operations</li>
+<li>Provenance, access control and privacy-preserving issues in open data</li>
+<li>Data cities interoperability</li>
+<li>Decision making for urban science and for city policy</li>
+<li>Resource allocation in urban systems</li>
+<li>Crowdsourcing for urban science and decision making</li>
+<li>Semantic models - especially those built collaboratively and evolving</li>
+<li>Data integration and organization in semantic cities (social media feeds, sensor data)</li>
+<li>Internet of Things in semantic cities</li>
+<li>Robust inference models for semantic cities</li>
+<li>Semantic Event detection and classification</li>
+<li>Applications in semantic cities</li>
+<li>Spatio-temporal reasoning, analysis and visualization</li>
+<li>User interaction in exploring semantic data of cities</li>
+<li>Knowledge representation and reasoning challenges</li>
+<li>Knowledge acquisition, evolution and maintenance</li>
+<li>Challenges with managing and integrating real-time and historical data</li>
+<li>Managing "big data" using knowledge representation models</li>
+<li>Multi-agent simulations of urban processes</li>
+<li>Integrated systems</li>
+<li>Applied AI models for semantic cities</li>
+<li>Issues in scaling out and applying AI techniques for semantic cities</li>
+<li>Case studies, successes, lessons learnt</li>
+<li>Public datasets and competitions</li>
+<li>Intelligent user interface</li>
+</ul>
+
+
+
 </div>
 
-</body></html>
+	    </div>
+	  </div>  
+
+	  <div class="wrap"></div>
+      </div>
+    </div>
+  </body>
+
+  <div id="footer-outer">
+    <div id="footer-inner">
+      <!-- 
+      <div id="bottom">
+	<div class="box box1"><img src="img/logo_sbc.gif"  width="200" alt="SBC"/></div>
+	<div class="box box2"><img src="img/EMAP_h_s.jpg"  width="200" alt="EMAP/FGV" /></div>
+      </div>
+      -->
+    </div>
+    <div id="footer-sub">
+      <div id="footer">
+      </div>
+    </div>
+  </div>
+  
+</html>
