@@ -1,0 +1,8 @@
+safe: false
+pygments: true
+markdown: rdiscount
+redirects: false
+exclude: ["README.md","*.org"]
+baseurl: /semanticcites-2015/
+
+
