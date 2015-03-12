@@ -14,7 +14,7 @@ IBM Research - India, New Delhi, India <br/>
 Email: sbiplav at in.ibm.com
 
 Alexandre Rademaker <br/>
-IBM Research - Brazil, Rio, Brazil <br/>
+FGV/EMAp and IBM Research - Brazil, Rio, Brazil <br/>
 Email: alexrad at br.ibm.com
 
 Sheila McIlraith <br/>
