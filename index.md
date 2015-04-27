@@ -45,17 +45,19 @@ knowledge) from people, systems and things is the single most scalable
 resource available to City stakeholders to reach the objective of
 semantic cities.
 
+A number of cities and government have made their data publicly
+available, prominent being New York (USA), London (UK), Chicago (USA),
+Washington DC (USA), Dublin (Ireland) and Rio de Janeiro (BR). The New
+York City can be considered one of the leaders in this area.
+
 Two major trends are supporting semantic cities - open data and
 Artificial Intelligence. "Open data is the idea that certain data
 should be freely available to everyone to use and republish as they
 wish, without restrictions from copyright, patents or other mechanisms
-of control ." A number of cities and government have made their data
-publicly available, prominent being London (UK), Chicago (USA),
-Washington DC (USA), Dublin (Ireland). Artificial Intelligence as a
-mature research discipline is crucial to bring breakthrough new
-technologies and systems to cities, its operators and citizens. Thus,
-a playfield for more AI research-driven technologies for cities has
-emerged.
+of control ." Artificial Intelligence as a mature research discipline
+is crucial to bring breakthrough new technologies and systems to
+cities, its operators and citizens. Thus, a playfield for more AI
+research-driven technologies for cities has emerged.
 
 In this context, the aims of the workshop are to:
 
@@ -110,7 +112,8 @@ Topics of interest include, but not restricted to, are:
 - Resource allocation in urban systems
 - Crowdsourcing for urban science and decision making
 - Semantic models - especially those built collaboratively and evolving
-- Data integration and organization in semantic cities (social media feeds, sensor data)
+- Data integration and organization in semantic cities (social media
+  feeds, sensor data)
 - Internet of Things in semantic cities
 - Robust inference models for semantic cities
 - Semantic Event detection and classification
@@ -129,3 +132,14 @@ Topics of interest include, but not restricted to, are:
 - Public datasets and competitions
 - Intelligent user interface
 
+## Support
+
+The
+[Center for Urban Science and Progress (CUSP)](http://cusp.nyu.edu) is
+a unique public-private research center that uses New York City as its
+laboratory and classroom to help cities around the world become more
+productive, livable, equitable, and resilient. CUSP observes,
+analyzes, and models cities to optimize outcomes, prototype new
+solutions, formalize new tools and processes, and develop new
+expertise/experts. These activities will make CUSP the world’s leading
+authority in the emerging field of "Urban Informatics."

@@ -7,20 +7,27 @@ title: Committee
 
 Freddy Lecue (primary point of contact) <br/>
 IBM Research - Smarter Cities Technology Centre, Dublin, Ireland <br/>
-Email : freddy lecue at ie.ibm.com
+Email : <script type='text/javascript'>var a = new Array('om','.ib','@ie','cue','fre','ddy','.le','m.c');document.write("<a href='mailto:"+a[4]+a[5]+a[6]+a[3]+a[2]+a[1]+a[7]+a[0]+"'>"+a[4]+a[5]+a[6]+a[3]+a[2]+a[1]+a[7]+a[0]+"</a>");</script>
 
 Biplav Srivastava <br/>
 IBM Research - India, New Delhi, India <br/>
-Email: sbiplav at in.ibm.com
+Email: <script type='text/javascript'>var a = new Array('.ibm.','sbipl','av@in','com');document.write("<a href='mailto:"+a[1]+a[2]+a[0]+a[3]+"'>"+a[1]+a[2]+a[0]+a[3]+"</a>");</script>
 
 Alexandre Rademaker <br/>
 FGV/EMAp and IBM Research - Brazil, Rio, Brazil <br/>
-Email: alexrad at br.ibm.com
+Email: <script type='text/javascript'>var a = new Array('bm','br','d@','ra','ex','al','.i','.c','om');document.write("<a href='mailto:"+a[5]+a[4]+a[3]+a[2]+a[1]+a[6]+a[0]+a[7]+a[8]+"'>"+a[5]+a[4]+a[3]+a[2]+a[1]+a[6]+a[0]+a[7]+a[8]+"</a>");</script>
 
 Sheila McIlraith <br/>
 Department of Computer Science <br/>
 University of Toronto <br/>
-Email: Sheila at cs dot Toronto dot edu
+Email: <script type='text/javascript'>var a = new Array('edu','sheila@cs','.toronto.');document.write("<a href='mailto:"+a[1]+a[2]+a[0]+"'>"+a[1]+a[2]+a[0]+"</a>");</script>
+
+Theo Damoulas<br/>
+Research Assistant Professor, New York University <br/>
+Center for Urban Science and Progress (CUSP) Brooklyn, USA<br/>
+Email: <script type='text/javascript'>var a = new Array('du','.e','as','ul','da','mo','@n','yu');document.write("<a href='mailto:"+a[4]+a[5]+a[3]+a[2]+a[6]+a[7]+a[1]+a[0]+"'>"+a[4]+a[5]+a[3]+a[2]+a[6]+a[7]+a[1]+a[0]+"</a>");</script><br/>
+Research interests: Machine Learning
+
 
 ## Steering Committee
  
