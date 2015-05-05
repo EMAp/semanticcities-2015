@@ -153,7 +153,7 @@ interest before the actual deadline.
 
 # Important Dates
 
-May 4, 2015: Paper Submission Deadline (extended)
+May 15, 2015: Paper Submission Deadline (extended)
 May 20, 2015: Notification Decision
 May 30, 2015: Camera Ready Due
 July ?, 2015: Workshop date
