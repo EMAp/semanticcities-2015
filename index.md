@@ -3,7 +3,12 @@ layout: content
 title: "The IJCAI 2015 Workshop on Semantic Cities: Beyond AI Models, Proofs and Reasoning"
 ---
 
+<p style="padding: 4px; background-color: #F87217; font-size:
+16px">IMPORTANT CANCELLATION NOTICE: The workshop has been cancelled
+due the limited number of submissions.</p>
+
 ## Description
+
 
 Cities around the world aspire to provide superior quality of life to
 their citizens. Furthermore, many are also seen as centers of unique
